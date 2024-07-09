@@ -4,6 +4,7 @@ import useFetch from "../Hooks/useFetch";
 
 const Card = () => {
   const data = useFetch("https://fakestoreapi.com/users");
+  console.log(data);
 
   return (
     <>
